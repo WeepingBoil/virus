@@ -1,8 +1,8 @@
 function NumberMatch () {
+    MyNumber = 0
     basic.showIcon(IconNames.Yes)
     score += 3
     if (score > 24) {
-        MyNumber = 0
         basic.showIcon(IconNames.Happy)
     } else {
         basic.pause(3000)
